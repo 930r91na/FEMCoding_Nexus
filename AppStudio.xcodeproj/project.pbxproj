@@ -34,6 +34,7 @@
 		A1D37B6B2ACFDB3D00757164 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37B6A2ACFDB3D00757164 /* LogInView.swift */; };
 		A1D37B6D2ACFDD0900757164 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37B6C2ACFDD0900757164 /* CheckboxView.swift */; };
 		A1D37B6F2ACFE37D00757164 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37B6E2ACFE37D00757164 /* RegisterView.swift */; };
+		D647806A2ADCB87F008282A9 /* AboutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64780692ADCB87F008282A9 /* AboutInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		A1D37B6A2ACFDB3D00757164 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		A1D37B6C2ACFDD0900757164 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		A1D37B6E2ACFE37D00757164 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D64780692ADCB87F008282A9 /* AboutInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				A1D37B692ACFD89400757164 /* TabBar */,
 				A1D37B452ACFCF6600757164 /* OnBoardingSlide.swift */,
 				A1D37B1B2ACFCF4800757164 /* AppStudioApp.swift */,
+				D64780692ADCB87F008282A9 /* AboutInfo.swift */,
 				A1D37B1D2ACFCF4800757164 /* ContentView.swift */,
 				A1D37B472ACFD04400757164 /* CardView.swift */,
 				A1D37B652ACFD79300757164 /* ChatView.swift */,
@@ -357,6 +360,7 @@
 				A1D37B1C2ACFCF4800757164 /* AppStudioApp.swift in Sources */,
 				A1D37B612ACFD78500757164 /* FeedTabBarView.swift in Sources */,
 				A1D37B4A2ACFD63800757164 /* AppTabBarView.swift in Sources */,
+				D647806A2ADCB87F008282A9 /* AboutInfo.swift in Sources */,
 				A1D37B552ACFD77300757164 /* MainTabBarContainerView.swift in Sources */,
 				A1D37B5E2ACFD78500757164 /* MainFeedView.swift in Sources */,
 				A1D37B6D2ACFDD0900757164 /* CheckboxView.swift in Sources */,
