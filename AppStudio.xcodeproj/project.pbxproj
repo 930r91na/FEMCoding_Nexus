@@ -35,6 +35,8 @@
 		A1D37B6D2ACFDD0900757164 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37B6C2ACFDD0900757164 /* CheckboxView.swift */; };
 		A1D37B6F2ACFE37D00757164 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37B6E2ACFE37D00757164 /* RegisterView.swift */; };
 		D647806A2ADCB87F008282A9 /* AboutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64780692ADCB87F008282A9 /* AboutInfo.swift */; };
+		D6B36DFA2ADFB78B00A355DB /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B36DF92ADFB78B00A355DB /* EditProfileView.swift */; };
+		D6B36DFC2ADFBE4200A355DB /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B36DFB2ADFBE4200A355DB /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		A1D37B6C2ACFDD0900757164 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		A1D37B6E2ACFE37D00757164 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		D64780692ADCB87F008282A9 /* AboutInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInfo.swift; sourceTree = "<group>"; };
+		D6B36DF92ADFB78B00A355DB /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		D6B36DFB2ADFBE4200A355DB /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		A1D37B0F2ACFCF4800757164 = {
 			isa = PBXGroup;
 			children = (
+				D6B36DFB2ADFBE4200A355DB /* MockData.swift */,
 				A1D37B1A2ACFCF4800757164 /* AppStudio */,
 				A1D37B2B2ACFCF4A00757164 /* AppStudioTests */,
 				A1D37B352ACFCF4A00757164 /* AppStudioUITests */,
@@ -136,6 +141,7 @@
 		A1D37B1A2ACFCF4800757164 /* AppStudio */ = {
 			isa = PBXGroup;
 			children = (
+				D6B36DFD2ADFBE5700A355DB /* Profile */,
 				A1D37B6A2ACFDB3D00757164 /* LogInView.swift */,
 				A1D37B6E2ACFE37D00757164 /* RegisterView.swift */,
 				A1D37B692ACFD89400757164 /* TabBar */,
@@ -145,8 +151,6 @@
 				A1D37B1D2ACFCF4800757164 /* ContentView.swift */,
 				A1D37B472ACFD04400757164 /* CardView.swift */,
 				A1D37B652ACFD79300757164 /* ChatView.swift */,
-				A1299F3C2AD867D6002CB878 /* ProfileSets.swift */,
-				A1D37B632ACFD78E00757164 /* ProfileView.swift */,
 				A1D37B6C2ACFDD0900757164 /* CheckboxView.swift */,
 				A13941CF2ADB83D000CE2313 /* Settings.swift */,
 				A1D37B572ACFD78500757164 /* Feed */,
@@ -212,6 +216,16 @@
 				A1D37B522ACFD77200757164 /* MainTabBarContainerView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D6B36DFD2ADFBE5700A355DB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A1D37B632ACFD78E00757164 /* ProfileView.swift */,
+				D6B36DF92ADFB78B00A355DB /* EditProfileView.swift */,
+				A1299F3C2AD867D6002CB878 /* ProfileSets.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +361,7 @@
 				A1D37B502ACFD73C00757164 /* MainTabBarItemsPreferenceKey.swift in Sources */,
 				A1D37B6F2ACFE37D00757164 /* RegisterView.swift in Sources */,
 				A1D37B1E2ACFCF4800757164 /* ContentView.swift in Sources */,
+				D6B36DFC2ADFBE4200A355DB /* MockData.swift in Sources */,
 				A1D37B542ACFD77300757164 /* MainTabBarView.swift in Sources */,
 				A1D37B462ACFCF6600757164 /* OnBoardingSlide.swift in Sources */,
 				A1D37B662ACFD79300757164 /* ChatView.swift in Sources */,
@@ -358,6 +373,7 @@
 				A1D37B682ACFD7AD00757164 /* CustomColors.swift in Sources */,
 				A1299F3D2AD867D6002CB878 /* ProfileSets.swift in Sources */,
 				A1D37B1C2ACFCF4800757164 /* AppStudioApp.swift in Sources */,
+				D6B36DFA2ADFB78B00A355DB /* EditProfileView.swift in Sources */,
 				A1D37B612ACFD78500757164 /* FeedTabBarView.swift in Sources */,
 				A1D37B4A2ACFD63800757164 /* AppTabBarView.swift in Sources */,
 				D647806A2ADCB87F008282A9 /* AboutInfo.swift in Sources */,

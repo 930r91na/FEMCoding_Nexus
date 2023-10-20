@@ -1,20 +1,19 @@
-//
-//  ProfileView.swift
-//  appFCC3
-//
-//  Created by MacBookAir on 05/10/23.
-//
 import SwiftUI
 
 struct ProfileView: View {
     @State private var navigateToNewScreen = false
+    @State private var navigateToSettings = false
     
     var body: some View {
         NavigationView {
             VStack {
                 // Parte superior de la pantalla
                 HStack {
-                    Image(systemName: "gearshape")
+                    Button(action: {
+                        navigateToSettings.toggle()
+                    }, label: {
+                        Image(systemName: "gearshape")
+                    })
                     Spacer()
                     Image(systemName: "ellipsis.circle")
                 }
@@ -22,7 +21,7 @@ struct ProfileView: View {
 
                 // Foto de perfil y nombre
                 VStack {
-                    Image("profile_picture") // Asegúrate de tener esta imagen en tu paquete de activos
+                    Image("profile_picture")
                         .resizable()
                         .clipShape(Circle())
                         .frame(width: 120, height: 120)
@@ -38,7 +37,7 @@ struct ProfileView: View {
                 .padding()
 
                 // Botón de editar perfil
-                NavigationLink(destination: ProfileSets(), isActive: $navigateToNewScreen) {
+                NavigationLink(destination: EditProfileView(), isActive: $navigateToNewScreen) {
                     Text("Edit profile")
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -64,6 +63,9 @@ struct ProfileView: View {
 
                 Spacer()
             }
+            .background(
+                NavigationLink("", destination: Settings(), isActive: $navigateToSettings)
+            )
         }
     }
 }
