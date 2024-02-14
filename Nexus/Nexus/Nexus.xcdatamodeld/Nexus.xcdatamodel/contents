@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="mentees" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="mentor" inverseEntity="User"/>
+        <relationship name="mentor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="mentees" inverseEntity="User"/>
+        <fetchedProperty name="uid" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="User"/>
+        </fetchedProperty>
+    </entity>
+</model>
